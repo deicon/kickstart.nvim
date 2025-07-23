@@ -345,6 +345,10 @@ require('lazy').setup({
       -- Document existing key chains
       spec = {
         { '<leader>s', group = '[S]earch' },
+<<<<<<< Updated upstream
+=======
+        { '<leader>g', group = '[G]it' },
+>>>>>>> Stashed changes
         { '<leader>t', group = '[T]oggle' },
         { '<leader>h', group = 'Git [H]unk', mode = { 'n', 'v' } },
       },
